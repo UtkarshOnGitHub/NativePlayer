@@ -9,7 +9,7 @@ const Player = ({navigation}) => {
 
     const tempIMG = "https://i.redd.it/q21m4rckj8251.jpg"
 
-    const [play , setPlay] = useState(false)
+    const [play , setPlay] = useState(true)
 
     let rotation = new Animated.Value(0)
     
