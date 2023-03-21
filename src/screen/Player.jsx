@@ -7,7 +7,7 @@ import { AntDesign, Entypo, FontAwesome, MaterialCommunityIcons, MaterialIcons }
 const Player = ({navigation}) => {
     // Initializations Or State Management
 
-    const tempIMG = "https://i.redd.it/q21m4rckj8251.jpg"
+    const tempIMG = "https://i.redd.it/q21m4rckj825a1.jpg"
 
     const [play , setPlay] = useState(true)
 
@@ -65,14 +65,8 @@ const Player = ({navigation}) => {
                     <MaterialIcons name="pause-circle-filled" size={24} color="black"  style={styles.icon} onPress={()=>{setPlay(true)}}/> 
                 }
                 
-                <MaterialCommunityIcons name="skip-next" size={24} color="black"   style={styles.icon} />
-                    
-                    
+                <MaterialCommunityIcons name="skip-next" size={24} color="black"   style={styles.icon} />    
             </View>
-
-
-
-
             <View style={styles.bottomNav}>
                 <BottomNav activepage={"player"} navigation={navigation}/>
             </View>
@@ -99,7 +93,7 @@ const styles = StyleSheet.create({
         width:300,
         height:300,
         borderRadius:150,
-        marginVertical:20
+        marginVertical:100,
     },
     text1:{
         color:primaryColor,
